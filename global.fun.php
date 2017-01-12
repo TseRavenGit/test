@@ -2,10 +2,11 @@
 
 /*
 *   所有公共函数文件
+*	测试
 */
 
 /*
-*	序列化111
+*	序列化
 */
 function _serialize($obj){ 
    return base64_encode(gzcompress(serialize($obj))); 
