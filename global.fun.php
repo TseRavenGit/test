@@ -5,7 +5,7 @@
 */
 
 /*
-*	序列化
+*	序列化111
 */
 function _serialize($obj){ 
    return base64_encode(gzcompress(serialize($obj))); 
