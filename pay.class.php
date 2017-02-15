@@ -1,5 +1,5 @@
 <?php
-
+# 测试改动
 defined('G_IN_SYSTEM')or exit('No permission resources.');
 System::load_app_fun("pay","pay");
 System::load_sys_fun("user");
